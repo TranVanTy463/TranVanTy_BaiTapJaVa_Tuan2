@@ -16,6 +16,11 @@ public class TranVanTy_59133029_BT1_Tuan2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+         NhanVien NV1 = new NhanVien("Trần Văn Tý", 21,"An Hòa",50000, 200);
+        NhanVien NV2 = new NhanVien("Nguyễn Ngọc Nhân", 19,"An Hòa",30000, 100);
+     
+        System.out.printf("Nhân Viên 1 :"+NV1.getThongTin()+" "+NV1.tinhThuong()+"\n");
+        System.out.printf("Nhân Viên 2 :"+NV2.getThongTin()+" "+NV2.tinhThuong()+"\n");
     }
     
 }
