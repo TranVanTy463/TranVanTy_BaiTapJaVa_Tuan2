@@ -67,11 +67,11 @@ public class NhanVien {
     public void setTonggio(int tonggio) {
         this.tonggio = tonggio;
     }
-    String getThongTin()
+    public String getThongTin()
     {
         return ten + " " + tuoi + " " + diachi + " " + tienluong+ " " +tonggio+ " " ;
     }
-    double tinhThuong()
+    public double tinhThuong()
     {
         
         if (tonggio >= 200)
