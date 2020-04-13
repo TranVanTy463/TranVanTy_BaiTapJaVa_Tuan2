@@ -15,15 +15,19 @@ public class SinhVienIT extends SinhVienPoly{ // kế thừa
     public SinhVienIT() {
     }
 
-    public SinhVienIT(double DiemJava, double DiemHtml, double DiemCss) {
+   
+
+    public SinhVienIT(double DiemJava, double DiemHtml, double DiemCss, String hoten, String nganh) {
+        super(hoten, nganh);
         this.DiemJava = DiemJava;
         this.DiemHtml = DiemHtml;
         this.DiemCss = DiemCss;
     }
+    
 
-    SinhVienIT(int i, int i0, int i1, String string, String string0) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+   
+
+   
 
     public double getDiemJava() {
         return DiemJava;

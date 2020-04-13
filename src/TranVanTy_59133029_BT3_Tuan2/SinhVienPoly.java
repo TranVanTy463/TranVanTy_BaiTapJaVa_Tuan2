@@ -56,7 +56,10 @@ public  abstract class SinhVienPoly {
      return HL;                            
     }
     public void xuat(){
-        System.out.println(hoten+ nganh);
+        System.out.println(" " +hoten);
+        System.out.println(" " +nganh);
+        System.out.println(" " +getDiem());
+        System.out.println(" " +getHocLuc());
         
     }
     

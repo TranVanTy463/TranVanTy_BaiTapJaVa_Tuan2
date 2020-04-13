@@ -16,8 +16,16 @@ public class TranVanTy_59133029_BT3_Tuan2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        SinhVienIT SIT = new SinhVienIT(5,6,7);
-                 System.out.println(" ",SIT.xuat());
+       SinhVienPoly SIT;
+        SIT = new SinhVienIT(6,7,8,"Trần Văn Tý","CNTT"); 
+        SIT.xuat();
+        SinhVienPoly SB;
+        SB= new SinhVienBiz(7,8,"Nguyễn Ngọc Bôn","Biz");
+        SB.xuat();
+        
+        
+         
+                 
                  
     }
     

@@ -15,11 +15,16 @@ public class SinhVienBiz extends SinhVienPoly {
     public SinhVienBiz() {
     }
 
-    public SinhVienBiz(double diemMarketing, double diemSales) {
+    public SinhVienBiz(double diemMarketing, double diemSales, String hoten, String nganh) {
+        super(hoten, nganh);
         this.diemMarketing = diemMarketing;
         this.diemSales = diemSales;
     }
 
+    
+     
+
+    
     public double getDiemMarketing() {
         return diemMarketing;
     }
