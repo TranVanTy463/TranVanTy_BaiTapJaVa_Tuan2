@@ -73,19 +73,19 @@ public class NhanVien {
     }
     double tinhThuong()
     {
-        double tienthuong;
+        
         if (tonggio >= 200)
             {
-                return tienthuong=tienluong * (20.0/100);
+                return tienluong * (20.0/100);
             }
               
             else if(tonggio < 200 && tonggio >= 100)
             {
-                return tienthuong=tienluong * (10.0/100);
+                return tienluong * (10.0/100);
             }
             else
             {
-                return tienthuong=0 ;
+                return 0 ;
             }
     }
 }
